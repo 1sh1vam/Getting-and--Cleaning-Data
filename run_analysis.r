@@ -36,7 +36,6 @@ selected_features<-features[grep("mean\\(\\)|std\\(\\)",features[,2]),]
 X<-X[,selected_features[,1]]
 
 # 3. Uses descriptive activity names to name the activities in the data set
-Y_total=y
 
 colnames(y)<-"activity"
 y$activitylabel<-factor(y$activity,labels=as.character(activity_labels[,2]))
