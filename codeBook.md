@@ -1,4 +1,4 @@
-# The run_analysis.R script performs the data preparation and then followed by the 5 steps required as described in the course project’s definition.
+# The run_analysis.R script performs the data preparation using 5 steps required as described in the course project’s definition.
 
 Download the dataset
 
@@ -57,4 +57,4 @@ Uses descriptive activity names to name the activities in the data set
 
 Entire numbers in code column of the X replaced with corresponding activity taken from second column of the activity_labels variable
 
-## Export FinalData into tidydata.txt file.
+## Export tidySet data into tidydata.txt file.
